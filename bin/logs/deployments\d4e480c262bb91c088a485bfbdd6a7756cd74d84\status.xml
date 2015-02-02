@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>d4e480c262bb91c088a485bfbdd6a7756cd74d84</id>
+  <author>Glenn Block</author>
+  <deployer>gblock</deployer>
+  <authorEmail>glenn.block@gmail.com</authorEmail>
+  <message>    first commit
+</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2013-09-11T20:04:10.012192Z</lastSuccessEndTime>
+  <receivedTime>2013-09-11T20:03:17.594344Z</receivedTime>
+  <startTime>2013-09-11T20:03:18.172423Z</startTime>
+  <endTime>2013-09-11T20:04:10.012192Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

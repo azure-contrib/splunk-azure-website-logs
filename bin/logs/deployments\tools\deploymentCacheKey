@@ -1,0 +1,2 @@
+1.23.20824.8
+-y --no-dot-deployment -r "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\repository" -o "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\deployments\tools" --node --sitePath "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\repository"

@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entries>
+  <entry time="2013-09-11T20:03:17.7818284Z" id="bcdd4171-6d08-4e3a-b3c5-f86acd880b00" type="0">
+    <message>Updating branch 'master'.</message>
+  </entry>
+  <entry time="2013-09-11T20:03:18.0630559Z" id="45ac2999-85c7-4c5a-8c58-5c2f65f98bac" type="0">
+    <message>Updating submodules.</message>
+  </entry>
+  <entry time="2013-09-11T20:03:18.156798Z" id="5d47a699-fb7b-4df9-8bc2-770c47824530" type="0">
+    <message>Preparing deployment for commit id 'd4e480c262'.</message>
+  </entry>
+  <entry time="2013-09-11T20:03:18.2817882Z" id="d2e2cce1-1b6e-416a-a56d-e17729306d45" type="0">
+    <message>Generating deployment script.</message>
+    <entry time="2013-09-11T20:03:18.3130456Z" id="694faa92-4674-4f58-a2df-b142694ad503" type="0">
+      <message>Using the following command to generate deployment script: 'azure site deploymentscript -y --no-dot-deployment -r "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\repository" -o "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\deployments\tools" --node --sitePath "C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\repository"'.</message>
+    </entry>
+    <entry time="2013-09-11T20:03:18.5005346Z" id="08b70137-58b3-43ea-8546-a337291e06a0" type="0">
+      <message>Generating deployment script for node.js Web Site</message>
+    </entry>
+    <entry time="2013-09-11T20:03:18.5005346Z" id="298a7240-ab5c-4d6c-afb5-c70ab7736b83" type="0">
+      <message>Generated deployment script files</message>
+    </entry>
+  </entry>
+  <entry time="2013-09-11T20:03:18.5474044Z" id="ea27a541-971d-4b11-b0a7-df1516cf220f" type="1">
+    <message>Running deployment command...</message>
+    <entry time="2013-09-11T20:03:18.5630171Z" id="65f3a182-c99a-4849-97bb-93f979bd4759" type="0">
+      <message>Command: C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\deployments\tools\deploy.cmd</message>
+    </entry>
+    <entry time="2013-09-11T20:03:18.9692366Z" id="78396835-9447-439d-9ef0-8327b84e9d4a" type="0">
+      <message>Handling node.js deployment.</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.2660885Z" id="d05a9701-781b-4267-ae2b-6fbfe3940c95" type="0">
+      <message>KuduSync.NET from: 'C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\repository' to: 'C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.2817221Z" id="98a21d60-d947-4731-8da2-72f09eadc3a3" type="0">
+      <message>Deleting file: 'hostingstart.html'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.2973409Z" id="314ea6dc-8422-46e6-a4b0-ff65b198d45e" type="0">
+      <message>Copying file: '.DS_Store'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.2973409Z" id="5eb7fe27-a695-4c76-a555-9c38b47ff0aa" type="0">
+      <message>Copying file: '.gitignore'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3129594Z" id="a8e688b4-4378-4a3c-9227-1ce435b517c1" type="0">
+      <message>Copying file: 'app.js'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3129594Z" id="e9bdb1e7-1159-4320-857d-42f93af6a834" type="0">
+      <message>Copying file: 'iisnode.yml'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3442103Z" id="3d421258-bd13-4db0-a9d8-51291cef0902" type="0">
+      <message>Copying file: 'package.json'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3442103Z" id="f02a869b-f6b8-40d3-b7d1-987066fb3569" type="0">
+      <message>Copying file: 'models\task.js'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3598308Z" id="27669078-55c7-44fb-aeb2-8417b4658f42" type="0">
+      <message>Copying file: 'public\stylesheets\bootstrap.min.css'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3754556Z" id="bc955181-0e05-4563-a25b-a246e8b3a558" type="0">
+      <message>Copying file: 'public\stylesheets\style.css'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.3910802Z" id="3cfc5f8b-101e-45c4-ab84-89375175685f" type="0">
+      <message>Copying file: 'routes\index.js'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.4379506Z" id="383bc72a-99da-4310-be65-55bebdffc293" type="0">
+      <message>Copying file: 'routes\tasklist.js'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.453575Z" id="36e752d4-8d79-422e-aa11-188bdfa96df8" type="0">
+      <message>Copying file: 'routes\user.js'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.453575Z" id="b6e95710-ff27-4572-b70e-a05612ab3f43" type="0">
+      <message>Copying file: 'views\.DS_Store'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.4691999Z" id="e17e52e4-075b-49d5-bfea-9f874eb01204" type="0">
+      <message>Copying file: 'views\index.jade'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.4691999Z" id="3ccf7a24-0d61-4e16-aa4b-3084f6712917" type="0">
+      <message>Copying file: 'views\layout.jade'</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.4848225Z" id="1f5e87cf-c77b-4b42-a27d-c4406a097c9d" type="0">
+      <message>The package.json file does not specify node.js engine version constraints.</message>
+    </entry>
+    <entry time="2013-09-11T20:03:19.4848225Z" id="53e524ad-f41f-4377-9e23-040af4da032e" type="0">
+      <message>The node.js application will run with the default node.js version 0.10.5.</message>
+    </entry>
+    <entry time="2013-09-11T20:03:20.2191468Z" id="56b7d645-4bb5-4087-ae19-7205e4bbece8" type="1">
+      <message>npm WARN package.json application-name@0.0.1 No README.md file found!</message>
+    </entry>
+    <entry time="2013-09-11T20:03:20.3128837Z" id="8ecc0923-359c-4c2b-85f9-e78139597246" type="1">
+      <message>npm http GET https://registry.npmjs.org/jade</message>
+    </entry>
+    <entry time="2013-09-11T20:03:20.3285079Z" id="b1b0eb5c-2208-49e9-be54-f3d22b21b0a6" type="1">
+      <message>npm http GET https://registry.npmjs.org/express/3.3.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:20.3285079Z" id="02bdfdf7-21f8-4c42-9afa-8f8ba1616795" type="1">
+      <message>npm http GET https://registry.npmjs.org/mongoose</message>
+    </entry>
+    <entry time="2013-09-11T20:03:22.265878Z" id="9cce17e9-3ae4-4702-ad9a-206a367a2532" type="1">
+      <message>npm http 200 https://registry.npmjs.org/express/3.3.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:22.2814869Z" id="e793a4f6-e691-409b-b07b-2fd777dffa78" type="1">
+      <message>npm http GET https://registry.npmjs.org/express/-/express-3.3.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:23.5626447Z" id="31e833c3-ae6c-4ae8-b74a-400704d87600" type="1">
+      <message>npm http 200 https://registry.npmjs.org/express/-/express-3.3.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:24.2344677Z" id="5987fbbe-c288-4ce8-8fb7-14ec6ce60698" type="1">
+      <message>npm http 200 https://registry.npmjs.org/jade</message>
+    </entry>
+    <entry time="2013-09-11T20:03:24.2657062Z" id="b2ce2396-fd99-4bb1-9b3a-86268c43a235" type="1">
+      <message>npm http GET https://registry.npmjs.org/jade/-/jade-0.35.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:25.0937698Z" id="91d52cc5-99e4-40bd-9be0-6c9f35cc138d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mongoose</message>
+    </entry>
+    <entry time="2013-09-11T20:03:25.1093947Z" id="7d93e8d2-54ba-4f2f-9ff8-c502324e5f04" type="1">
+      <message>npm http GET https://registry.npmjs.org/mongoose/-/mongoose-3.6.19.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:25.5468676Z" id="bc6ffeab-90a2-4f43-949c-3a6381e2162e" type="1">
+      <message>npm http 200 https://registry.npmjs.org/jade/-/jade-0.35.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:26.4374256Z" id="59d974ba-e214-4b06-ab93-4aee16df33db" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mongoose/-/mongoose-3.6.19.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9528464Z" id="f6a1f580-df3b-45bf-8997-90ddeedd7827" type="1">
+      <message>npm http GET https://registry.npmjs.org/connect/2.8.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9684723Z" id="baabe030-96e7-4090-8762-903a6648c7ae" type="1">
+      <message>npm http GET https://registry.npmjs.org/range-parser/0.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9684723Z" id="3b0e39e0-4030-4383-aad9-3b996d74d1ef" type="1">
+      <message>npm http GET https://registry.npmjs.org/commander/1.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9840933Z" id="e306e9cf-fe87-41ab-b5a6-2da10b61841c" type="1">
+      <message>npm http GET https://registry.npmjs.org/mkdirp/0.3.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9997254Z" id="612aa80b-78f1-4f1f-a550-3864b037efa5" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:28.9997254Z" id="6271c98a-a583-48c9-b5c9-dd0166cc8003" type="1">
+      <message>npm http GET https://registry.npmjs.org/buffer-crc32/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:29.0153399Z" id="7ee2d2aa-ca03-4492-83d2-6d963159f332" type="1">
+      <message>npm http GET https://registry.npmjs.org/fresh/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:29.0153399Z" id="2872d09a-e3d7-4c71-9d18-adc3bb47cccb" type="1">
+      <message>npm http GET https://registry.npmjs.org/methods/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:29.0309644Z" id="42d1496e-ac7c-47b4-90f4-c2029bb87b24" type="1">
+      <message>npm http GET https://registry.npmjs.org/send/0.1.3</message>
+    </entry>
+    <entry time="2013-09-11T20:03:29.0465879Z" id="a1458945-0675-403c-ad9a-749e71dfaa5b" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie-signature/1.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:29.0465879Z" id="460bbba6-63a9-4bd8-a06b-af78ad0f8081" type="1">
+      <message>npm http GET https://registry.npmjs.org/debug</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0308871Z" id="3873ebcc-a082-41f7-83be-6fbde8e3928d" type="1">
+      <message>npm http GET https://registry.npmjs.org/commander/2.0.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0308871Z" id="ec697fed-dc10-4b46-bf4a-93126bde3d8d" type="1">
+      <message>npm http GET https://registry.npmjs.org/transformers/2.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0465104Z" id="2435a87d-6ac4-49f6-921c-090980bfcc8c" type="1">
+      <message>npm http GET https://registry.npmjs.org/character-parser/1.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0621354Z" id="da402356-9320-402c-9642-d67cf4b06205" type="1">
+      <message>npm http GET https://registry.npmjs.org/mkdirp</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0777584Z" id="cb6927e9-e911-4856-91e9-0f85005998e4" type="1">
+      <message>npm http GET https://registry.npmjs.org/monocle/1.1.50</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.0933842Z" id="673b022f-82fe-4c5b-a60d-518f5f06e8a0" type="1">
+      <message>npm http GET https://registry.npmjs.org/with</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.1090198Z" id="9456f473-e1c4-4132-b943-ade898c761ff" type="1">
+      <message>npm http GET https://registry.npmjs.org/constantinople</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.3121239Z" id="ef29b47b-e696-4aad-8b96-842ff5b5a7a2" type="1">
+      <message>npm http 200 https://registry.npmjs.org/range-parser/0.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.3277487Z" id="62b0ccc5-9aa5-4357-bf37-21878438ef0b" type="1">
+      <message>npm http GET https://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.4996049Z" id="ba8119ab-535d-4f0e-beb2-e4504350ccec" type="1">
+      <message>npm http 200 https://registry.npmjs.org/connect/2.8.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5152246Z" id="6f4156a8-a4c0-4876-9a74-788febc46b21" type="1">
+      <message>npm http GET https://registry.npmjs.org/mongodb/1.3.19</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5308573Z" id="59a8a0fe-777a-4d68-8a14-46eacf6002e2" type="1">
+      <message>npm http GET https://registry.npmjs.org/sliced/0.0.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5308573Z" id="cab4ff04-6468-4feb-b82a-a3b23eab2ff0" type="1">
+      <message>npm http GET https://registry.npmjs.org/ms/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5464717Z" id="c14f0078-4396-480e-bd6c-c8d226531280" type="1">
+      <message>npm http GET https://registry.npmjs.org/hooks/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5621049Z" id="6680a66f-518a-4fa9-9aec-6feb9330fd4c" type="1">
+      <message>npm http GET https://registry.npmjs.org/muri/0.3.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.5777204Z" id="c6533f85-4490-441c-a163-c5c66ac09da5" type="1">
+      <message>npm http GET https://registry.npmjs.org/mpromise/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.6089762Z" id="6b62f5d0-40f5-4769-871c-f3ef0c003317" type="1">
+      <message>npm http GET https://registry.npmjs.org/mpath/0.1.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.624591Z" id="6309e563-23bc-47b3-94ba-47d3d174ff2b" type="1">
+      <message>npm http GET https://registry.npmjs.org/regexp-clone/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.6558474Z" id="0ccc2daf-c7d5-4e10-80fb-f61a5db8d394" type="1">
+      <message>npm http 200 https://registry.npmjs.org/commander/1.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.6714615Z" id="17691fec-4601-4b40-b128-28d7ba0f8947" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mkdirp/0.3.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.6870885Z" id="1fb89ef3-45c3-41c6-ba00-17275bbce94e" type="1">
+      <message>npm http 200 https://registry.npmjs.org/cookie/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.6870885Z" id="3ca428d1-e04a-42d7-9e13-59099c821d42" type="1">
+      <message>npm http GET https://registry.npmjs.org/connect/-/connect-2.8.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7027322Z" id="29663106-18e4-4569-ae21-bf4820435fed" type="1">
+      <message>npm http GET https://registry.npmjs.org/commander/-/commander-1.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7183567Z" id="9e816eb2-0fa7-489e-ac99-abdff4e5259f" type="1">
+      <message>npm http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7339582Z" id="288d1c87-e074-4c35-946f-b808331982e8" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7495897Z" id="1c679f14-dbd1-4cda-b3ef-34f92eb97a34" type="1">
+      <message>npm http 200 https://registry.npmjs.org/fresh/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7652265Z" id="5f1a4afb-1e19-48ce-a47b-884a480a9067" type="1">
+      <message>npm http GET https://registry.npmjs.org/fresh/-/fresh-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7808408Z" id="ef51ec2d-c308-40dd-8bde-09bc4b205c58" type="1">
+      <message>npm http 200 https://registry.npmjs.org/methods/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.7808408Z" id="93f51e44-44b4-4665-91e0-eb80a5b1c08f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/buffer-crc32/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.796453Z" id="5749fddb-fc5c-408d-942a-26f14b72eb96" type="1">
+      <message>npm http GET https://registry.npmjs.org/methods/-/methods-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.8120762Z" id="e8be988e-c9c4-416c-b538-407f79b5863d" type="1">
+      <message>npm http GET https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.9058397Z" id="b5fb778e-12d7-44c9-923e-0042ca14148f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/send/0.1.3</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.9214439Z" id="bba6fc37-c00c-4a4d-b3bd-c585f643f6d0" type="1">
+      <message>npm http 200 https://registry.npmjs.org/cookie-signature/1.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.9370681Z" id="df36a8fb-e396-4097-bc55-746ee4ff23f6" type="1">
+      <message>npm http GET https://registry.npmjs.org/send/-/send-0.1.3.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:30.952701Z" id="ef8e677b-eb0f-4e19-abd4-6ce7fa278b7e" type="1">
+      <message>npm http GET https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1089383Z" id="3db5116e-8284-4cb6-87e9-0af79bcd117c" type="1">
+      <message>npm http 200 https://registry.npmjs.org/debug</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1089383Z" id="4cad522f-332b-4f1b-9d52-3a7ac0a14b73" type="1">
+      <message>npm http GET https://registry.npmjs.org/debug/-/debug-0.7.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1245521Z" id="a729c3e7-b191-4111-8fe3-3ae4666ed5fa" type="1">
+      <message>npm http 200 https://registry.npmjs.org/commander/2.0.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1402575Z" id="011a9b08-c447-464a-9821-12df67ea0d3e" type="1">
+      <message>npm http 200 https://registry.npmjs.org/transformers/2.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1558097Z" id="a21f7a96-c31e-4898-b138-4dc340027b27" type="1">
+      <message>npm http GET https://registry.npmjs.org/commander/-/commander-2.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.1714337Z" id="ae6f6812-0957-45e5-8f41-cebe0f78b551" type="1">
+      <message>npm http GET https://registry.npmjs.org/transformers/-/transformers-2.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.3120483Z" id="352542eb-5327-4101-b1f1-01cc8ab399f3" type="1">
+      <message>npm http 200 https://registry.npmjs.org/character-parser/1.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.3276725Z" id="6bddf559-e5aa-4931-977d-2535839c7a47" type="1">
+      <message>npm http GET https://registry.npmjs.org/character-parser/-/character-parser-1.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.3432977Z" id="718dd593-982f-42ab-8d27-6457f2a0d8e1" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mkdirp</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.4995324Z" id="70f948ee-c79b-4048-9eba-be01766a631b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/monocle/1.1.50</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.5151479Z" id="665c1964-18e0-4922-abdc-c6cf76bae0c5" type="1">
+      <message>npm http GET https://registry.npmjs.org/monocle/-/monocle-1.1.50.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.5307713Z" id="2fd7922e-d66f-4c2c-9930-27353ea5117f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/with</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.5463977Z" id="d179b7b1-be40-4611-a79b-f6d9ec82b317" type="1">
+      <message>npm http 200 https://registry.npmjs.org/constantinople</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.5620195Z" id="b030f398-b88d-4384-bb41-23c6d7b8e1df" type="1">
+      <message>npm http GET https://registry.npmjs.org/with/-/with-1.1.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.5620195Z" id="e14c93d2-cc9f-4e82-bd37-a31b30e5bad6" type="1">
+      <message>npm http GET https://registry.npmjs.org/constantinople/-/constantinople-1.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.6557717Z" id="94008b10-46c5-4fac-bb92-2f725755cda2" type="1">
+      <message>npm http 200 https://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.718259Z" id="7a73adec-5da1-4710-a8bb-4b1750bc9dd8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/ms/0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.7338979Z" id="992d7851-f903-4e44-90a7-722e477f5237" type="1">
+      <message>npm http GET https://registry.npmjs.org/ms/-/ms-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.7495148Z" id="2ccdfa20-e499-4e6b-b1cd-323e63674de8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sliced/0.0.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.7495148Z" id="3c78ad49-77f3-4bc1-9465-2ce3b882457f" type="1">
+      <message>npm http GET https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.7807667Z" id="d847438b-ccb9-4ec7-a2ab-7a8971423cd7" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mongodb/1.3.19</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.7963883Z" id="6d27601a-d9d2-4448-88db-fa8d96996401" type="1">
+      <message>npm http GET https://registry.npmjs.org/mongodb/-/mongodb-1.3.19.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.8276429Z" id="5fe40dcd-0c85-4def-8c3c-9a2afac3fbc9" type="1">
+      <message>npm http 200 https://registry.npmjs.org/commander/-/commander-1.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.8745078Z" id="1053e142-2b49-4837-bfd1-e19f47544be8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.9057429Z" id="5f6eaecd-d8f6-4d67-b00e-d469f15e726f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/connect/-/connect-2.8.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.921367Z" id="b228fc97-b45c-4947-9528-091d3de8c689" type="1">
+      <message>npm http 200 https://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.9526318Z" id="3cf9a973-f714-4579-a53c-ba55d0f29161" type="1">
+      <message>npm http 200 https://registry.npmjs.org/hooks/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.9685473Z" id="d63bccbf-a4e4-4cfe-9fb3-b266cc97e64d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/muri/0.3.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.983863Z" id="676c0743-3880-436f-897d-249a041a6e99" type="1">
+      <message>npm http GET https://registry.npmjs.org/hooks/-/hooks-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:31.9994859Z" id="18e81938-7949-4e18-a20f-27db86bf60bc" type="1">
+      <message>npm http GET https://registry.npmjs.org/muri/-/muri-0.3.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.1244779Z" id="fdf42e15-4193-446d-b5df-a9d22310404c" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mpromise/0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.140109Z" id="77198767-2275-4e35-9aad-9ba1c7fd5dd8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/fresh/-/fresh-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.140109Z" id="700961e4-3456-429e-bc89-fbcf7c92db47" type="1">
+      <message>npm http GET https://registry.npmjs.org/mpromise/-/mpromise-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.1713477Z" id="5d72013e-5995-4906-8e5a-79152808cc49" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mpath/0.1.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.1869732Z" id="de085ac9-84ed-4616-bb8b-5fda0b9d2dd7" type="1">
+      <message>npm http GET https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.2338542Z" id="0fe1dcf8-4240-427c-a220-f237c5e76c0b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/methods/-/methods-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.249466Z" id="f1d72e8e-73e1-402b-86f9-03de6de14e16" type="1">
+      <message>npm http 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.2650904Z" id="519b9b1a-0227-4917-9c44-575750c077d3" type="1">
+      <message>npm http 200 https://registry.npmjs.org/regexp-clone/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.2807144Z" id="dd316aa4-c08c-45b9-8105-118e6c4f76ec" type="1">
+      <message>npm http GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.2807144Z" id="99ca6218-36ee-46e7-ab7f-7c07eede9e59" type="1">
+      <message>npm http 200 https://registry.npmjs.org/send/-/send-0.1.3.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.4838256Z" id="bc3fe549-e056-45e9-8106-eb1c2f4507ff" type="1">
+      <message>npm WARN package.json methods@0.0.1 No README.md file found!</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.5775768Z" id="4c0fcbc8-6fcb-492b-bc11-649dd834f7a1" type="1">
+      <message>npm http 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.6244481Z" id="a072a144-f9a0-4c15-a4f0-9e485a94c64d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/debug/-/debug-0.7.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.6400618Z" id="bbef74d1-7636-47ba-a619-2b45051c7464" type="1">
+      <message>npm http 200 https://registry.npmjs.org/commander/-/commander-2.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.6556854Z" id="8b9d467a-44c0-4b8e-b4b7-d8021359ce89" type="1">
+      <message>npm http 200 https://registry.npmjs.org/transformers/-/transformers-2.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.6713089Z" id="4de8c8b1-9dc5-4c9d-8a4b-ae9099909f65" type="1">
+      <message>npm http 200 https://registry.npmjs.org/character-parser/-/character-parser-1.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:32.9994186Z" id="0663e5ef-16ff-4f42-8583-2606cd3114d8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/monocle/-/monocle-1.1.50.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.0462788Z" id="e47e2e93-cf8a-4457-b213-7ab0a143dea8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/with/-/with-1.1.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.0775294Z" id="733f0199-c6c1-498c-989e-fa6521a01ff9" type="1">
+      <message>npm http 200 https://registry.npmjs.org/constantinople/-/constantinople-1.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.093154Z" id="fa9d125a-9ea3-431f-9f29-5ff1c6b63be1" type="1">
+      <message>npm http 200 https://registry.npmjs.org/ms/-/ms-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.093154Z" id="def3d664-8d34-4625-99b0-728031e4be47" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sliced/-/sliced-0.0.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.4368877Z" id="b327d72a-0b0d-4a51-96af-4f811fd13adc" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mongodb/-/mongodb-1.3.19.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.4681345Z" id="97bc2d65-322a-4218-b97f-1e8164f5bc8b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/hooks/-/hooks-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.4837501Z" id="6686b29d-e47f-4507-a99b-d8d479526ccf" type="1">
+      <message>npm http 200 https://registry.npmjs.org/muri/-/muri-0.3.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.6087485Z" id="dc74e0d0-caca-4150-9fcd-129f619e6902" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mpromise/-/mpromise-0.2.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.8587194Z" id="7f692296-9756-40a5-9527-d5a598dbc3bd" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mpath/-/mpath-0.1.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:33.8743436Z" id="fbf061ab-7600-4063-a2ec-0fa60f8b9241" type="1">
+      <message>npm http 200 https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.2649476Z" id="03ef2bcb-d040-4a8e-8913-b8855fe64e78" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-js/2.4.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.3586821Z" id="f00e98ec-34b5-47c7-b41f-ae262ba9d901" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-js</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.4680466Z" id="8d3c9a69-8669-466a-8aef-344a1f2476c9" type="1">
+      <message>npm http GET https://registry.npmjs.org/promise</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.4680466Z" id="8a99603f-6b59-457e-bdb1-946496a220ee" type="1">
+      <message>npm http GET https://registry.npmjs.org/css</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.4836706Z" id="f0ecf8db-c7df-4b65-a3bb-c5c70738ad4d" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-js</message>
+    </entry>
+    <entry time="2013-09-11T20:03:34.6242922Z" id="dbd6b1b5-4d46-4fe7-aeec-8c1f234325c1" type="1">
+      <message>npm http GET https://registry.npmjs.org/readdirp</message>
+    </entry>
+    <entry time="2013-09-11T20:03:35.3429809Z" id="1473c96f-6f65-4d15-befd-89526c35fab8" type="1">
+      <message>npm http GET https://registry.npmjs.org/keypress</message>
+    </entry>
+    <entry time="2013-09-11T20:03:35.3742294Z" id="d69eb80e-5f30-4525-8a79-72f06387daca" type="1">
+      <message>npm http GET https://registry.npmjs.org/mime</message>
+    </entry>
+    <entry time="2013-09-11T20:03:35.999225Z" id="561b959b-6636-47db-8ca3-c223e306c902" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-js/2.4.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.0772987Z" id="4c1098d0-30da-4767-bace-482e73c5f51f" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.1397925Z" id="dea994e5-3982-4768-a36d-02acb6c54b0f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/promise</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.1710404Z" id="03b0ccfb-7551-4e16-922a-05a744091318" type="1">
+      <message>npm http GET https://registry.npmjs.org/promise/-/promise-2.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.2335359Z" id="c22f1986-584c-4e2d-a013-6e522204591b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.2804152Z" id="1a9d3a66-45a0-47cf-8cc7-94d9e58eb2d8" type="1">
+      <message>npm http GET https://registry.npmjs.org/css/-/css-1.0.8.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.5303887Z" id="22627e95-bdd3-40ea-874c-4893d4a81e3b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/keypress</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.5616357Z" id="ee42360b-fcd8-45e8-b6a0-66b8476a414e" type="1">
+      <message>npm http GET https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.5772637Z" id="59a0dc46-6568-4e22-9a0b-ed49e19fc846" type="1">
+      <message>npm http GET https://registry.npmjs.org/sliced/0.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.6241307Z" id="65ed2332-2564-4cab-bde1-aafb879df5e6" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mime</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.6397552Z" id="bb4f4327-094d-4bb1-b18c-0ef400169394" type="1">
+      <message>npm http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.7491217Z" id="ac8ebb08-4d5c-444c-9c77-de3a6a7d059c" type="1">
+      <message>npm http 200 https://registry.npmjs.org/readdirp</message>
+    </entry>
+    <entry time="2013-09-11T20:03:36.764745Z" id="42edf876-74e6-439a-88a1-a26dda10dd42" type="1">
+      <message>npm http GET https://registry.npmjs.org/readdirp/-/readdirp-0.2.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.436577Z" id="f233ab04-7d9a-4f8e-b908-284915967b09" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-js</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.4834411Z" id="a2ab0227-ab08-4337-a0d2-a57ad0870532" type="1">
+      <message>npm http 200 https://registry.npmjs.org/promise/-/promise-2.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.4990643Z" id="dc9f00c2-ae01-4c49-be56-f55a929ed2a7" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.4.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.5928189Z" id="85bdfddc-18d4-4a17-b51f-04d1ee0f03b9" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-js</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.6084295Z" id="31ae2ca6-b3f2-4a34-9c48-48d991adfc88" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css/-/css-1.0.8.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.6240547Z" id="8f0cb9c9-513a-4520-9add-73422df679f6" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.8271658Z" id="cceb4e87-c1c3-4161-b4c3-e71d4689d981" type="1">
+      <message>npm http 200 https://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.8584099Z" id="7f9584b9-ac63-401a-b09a-1030a302c9d6" type="1">
+      <message>npm http 200 https://registry.npmjs.org/readdirp/-/readdirp-0.2.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:37.9365394Z" id="85b45d82-f356-4e8c-9e5f-30d760340392" type="1">
+      <message>npm http 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.0459065Z" id="cf48c773-c07e-4800-8ef6-3f4fe8287a14" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.061523Z" id="7cd54973-9f7c-4c4b-ad52-7affe8ac2e99" type="1">
+      <message>npm http GET https://registry.npmjs.org/qs/0.6.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.0771453Z" id="51cecc41-d49f-40c2-8d3f-50788ed4118d" type="1">
+      <message>npm http GET https://registry.npmjs.org/formidable/1.0.14</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.0927707Z" id="146d39c2-63f0-4c63-a301-2ce125b860ac" type="1">
+      <message>npm http GET https://registry.npmjs.org/bytes/0.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.1083964Z" id="12988116-2b51-47dc-8868-01b24b3a14fc" type="1">
+      <message>npm http GET https://registry.npmjs.org/pause/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.1240173Z" id="947ebf57-3c10-4b0c-bb25-81e739cd6bc5" type="1">
+      <message>npm http GET https://registry.npmjs.org/uid2/0.0.2</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.1396416Z" id="35c91599-1be4-44b4-b5fe-6cd1d31bb702" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sliced/0.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.1552635Z" id="4cbf9c59-13a1-45fa-83de-ee6f9b5a71eb" type="1">
+      <message>npm http GET https://registry.npmjs.org/sliced/-/sliced-0.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.2802549Z" id="88b863f1-1078-4264-96bd-64bac9aab3a7" type="1">
+      <message>npm http GET https://registry.npmjs.org/bson/0.2.2</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.2958799Z" id="1ec14fee-a4d6-429d-8163-a2feacb91f60" type="1">
+      <message>npm http GET https://registry.npmjs.org/kerberos/0.0.3</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.311505Z" id="cee625c0-1810-4d95-8d63-21a74184230a" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uid2/0.0.2</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.3271351Z" id="500c6388-fa17-454c-a72c-b6a3254b7702" type="1">
+      <message>npm http GET https://registry.npmjs.org/uid2/-/uid2-0.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.7489774Z" id="0be06391-f10c-4ab7-a743-cdf52c88cea4" type="1">
+      <message>npm http 200 https://registry.npmjs.org/bson/0.2.2</message>
+    </entry>
+    <entry time="2013-09-11T20:03:38.7802248Z" id="6aa0d62c-42ae-419f-aef7-e463abd2922c" type="1">
+      <message>npm http GET https://registry.npmjs.org/bson/-/bson-0.2.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.1864364Z" id="1022b758-ed0c-4f7a-be6a-3d5eab886036" type="1">
+      <message>npm http 200 https://registry.npmjs.org/kerberos/0.0.3</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.2176844Z" id="b790ffce-704c-4d91-b748-c8cb4e040cf7" type="1">
+      <message>npm http GET https://registry.npmjs.org/kerberos/-/kerberos-0.0.3.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.4051754Z" id="16194873-568b-446a-9d9a-de5a5e55d28f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/pause/0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.4364143Z" id="87766983-cc35-47d2-804a-9d9d927a5ed2" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sliced/-/sliced-0.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.4676735Z" id="1dbed28c-5913-4701-8cc4-6e66120bcc90" type="1">
+      <message>npm http GET https://registry.npmjs.org/pause/-/pause-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.5301603Z" id="cd4b9167-c4bc-41cd-a51e-9d75795bd6e0" type="1">
+      <message>npm http 200 https://registry.npmjs.org/bytes/0.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.5770287Z" id="2312ece6-c789-44c0-8c95-e1dde56817d8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/formidable/1.0.14</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.6082794Z" id="d885eab3-233b-46d9-b5b1-967c5d337a8b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/qs/0.6.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.6239201Z" id="af309db3-25f5-424a-9db0-ad87e0338029" type="1">
+      <message>npm http GET https://registry.npmjs.org/bytes/-/bytes-0.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.6395259Z" id="1f3fdd2f-cc15-4d69-ae43-ce33e1b833de" type="1">
+      <message>npm http GET https://registry.npmjs.org/formidable/-/formidable-1.0.14.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.6551492Z" id="e16180ee-2c23-4f64-91a6-7d35d413384b" type="1">
+      <message>npm http GET https://registry.npmjs.org/qs/-/qs-0.6.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.670772Z" id="b363fb17-1012-4125-b229-bfb881eb9074" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uid2/-/uid2-0.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.6863963Z" id="1d00a04b-cc33-4cb4-af1a-441aeeb95e88" type="1">
+      <message>npm WARN package.json uid2@0.0.2 No README.md file found!</message>
+    </entry>
+    <entry time="2013-09-11T20:03:39.8895061Z" id="2f435ef3-17e9-435b-b1fa-cdb6d1a5b18b" type="1">
+      <message>npm http 200 https://registry.npmjs.org/formidable/-/formidable-1.0.14.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.0457437Z" id="f4f28b85-1415-4ef8-9d4e-b82cbfee7f7e" type="1">
+      <message>npm http 200 https://registry.npmjs.org/bson/-/bson-0.2.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.0613688Z" id="d12f33d4-4248-4022-b576-79ee1d15adc8" type="1">
+      <message>npm http GET https://registry.npmjs.org/is-promise</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.1082396Z" id="d5d8368b-a0bd-4ba1-9fb2-bd5e2e00b9a5" type="1">
+      <message>npm http GET https://registry.npmjs.org/css-parse/1.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.2019823Z" id="07e8205c-d410-4d0d-b666-c0f457e884db" type="1">
+      <message>npm http GET https://registry.npmjs.org/css-stringify/1.0.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.4832101Z" id="63e661e1-c2f7-481c-b159-32e47cb7b4af" type="1">
+      <message>npm http 200 https://registry.npmjs.org/qs/-/qs-0.6.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.530081Z" id="0b9d14d2-09d2-4b47-8973-bf371c069366" type="1">
+      <message>npm http 200 https://registry.npmjs.org/kerberos/-/kerberos-0.0.3.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.7956845Z" id="a161420d-2bdf-471f-b30b-d4039735576f" type="1">
+      <message>npm http 200 https://registry.npmjs.org/pause/-/pause-0.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.9206781Z" id="e6c92d27-e32b-4ae5-8305-b1bbb469c073" type="1">
+      <message>npm http GET https://registry.npmjs.org/async</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.9363014Z" id="82cd49de-4da5-4385-8b93-003f00c23689" type="1">
+      <message>npm http GET https://registry.npmjs.org/source-map</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.9519246Z" id="9d16db67-90da-41ea-a38d-3f3dac916402" type="1">
+      <message>npm http GET https://registry.npmjs.org/optimist</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.9675519Z" id="32b4a2da-0636-4a65-87d6-adfb80a47b58" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-to-browserify</message>
+    </entry>
+    <entry time="2013-09-11T20:03:40.9831729Z" id="8c46bcae-e90b-466a-af6d-66f89148d14d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/bytes/-/bytes-0.2.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.6393722Z" id="74f9b723-7494-4c2c-83dc-9ec2289fa368" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css-stringify/1.0.5</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.7018679Z" id="53e6bf62-6882-4e75-8566-2c97fc741fb5" type="1">
+      <message>npm http GET https://registry.npmjs.org/css-stringify/-/css-stringify-1.0.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.748737Z" id="81ca9669-3034-4780-a407-90bac337a54d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/is-promise</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.764372Z" id="fc9b111f-0d1c-4969-b639-0eca0e155803" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css-parse/1.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.7799853Z" id="c3b51def-6712-4eb3-89d0-cd777b85c63f" type="1">
+      <message>npm http GET https://registry.npmjs.org/is-promise/-/is-promise-1.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:41.7956087Z" id="b82382ce-b3ea-4f99-8474-cd203e395435" type="1">
+      <message>npm http GET https://registry.npmjs.org/css-parse/-/css-parse-1.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:42.1393328Z" id="c78adb69-af38-48bd-b015-81218b6f321d" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-to-browserify</message>
+    </entry>
+    <entry time="2013-09-11T20:03:42.1549562Z" id="1bedb073-8756-481b-9098-18bbff46fdbc" type="1">
+      <message>npm http GET https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:42.6236702Z" id="e6e6d102-4c10-476d-ba50-5cc590d83a36" type="1">
+      <message>npm http 200 https://registry.npmjs.org/optimist</message>
+    </entry>
+    <entry time="2013-09-11T20:03:42.6392938Z" id="4d53927e-5f2a-4156-a623-cbe100fe3aba" type="1">
+      <message>npm http GET https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:42.9986521Z" id="1470342e-12d2-4e48-a88a-5a4d3f7ae1f8" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css-stringify/-/css-stringify-1.0.5.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.0611364Z" id="1e7dba0b-ea55-40a5-9925-68dc7cd22a89" type="1">
+      <message>npm http 200 https://registry.npmjs.org/css-parse/-/css-parse-1.0.4.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.0767624Z" id="dff98327-1fd3-4ee3-9563-5d0ccd6ae8c6" type="1">
+      <message>npm http 200 https://registry.npmjs.org/is-promise/-/is-promise-1.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.4361174Z" id="2a6ee1e5-8d88-4288-bb3a-0807b8a32728" type="1">
+      <message>npm http 200 https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.6704638Z" id="218b57aa-d8d0-4747-a5d2-d8065b194a93" type="1">
+      <message>npm http 200 https://registry.npmjs.org/source-map</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.873583Z" id="31c67dcb-c46f-4b8b-bef2-7a4db616018b" type="1">
+      <message>npm http GET https://registry.npmjs.org/source-map/-/source-map-0.1.29.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:43.9516931Z" id="c7b6b42b-af56-481d-b0d3-ebb59f3bec10" type="1">
+      <message>npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:44.0923095Z" id="82a4c1b0-f97a-4f54-8c90-3b4eb2907981" type="1">
+      <message>npm http 200 https://registry.npmjs.org/async</message>
+    </entry>
+    <entry time="2013-09-11T20:03:44.1079312Z" id="b223df36-87d2-49db-b068-5ae1cd1796a1" type="1">
+      <message>npm http GET https://registry.npmjs.org/async/-/async-0.2.9.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:45.2172213Z" id="1552942e-e56e-40ab-9bf9-b6b8d10ce6a4" type="1">
+      <message>npm http 200 https://registry.npmjs.org/source-map/-/source-map-0.1.29.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:45.4047056Z" id="3fe574b0-5e31-484c-87b1-24b86d581a60" type="1">
+      <message>npm http 200 https://registry.npmjs.org/async/-/async-0.2.9.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:45.5453205Z" id="7cc6badb-5e76-48ca-9b53-9afbd9a8afe5" type="1">
+      <message>npm http GET https://registry.npmjs.org/minimatch</message>
+    </entry>
+    <entry time="2013-09-11T20:03:46.8577224Z" id="dbcfbfd7-5a63-4e7a-9c86-3d361fa8cff1" type="1">
+      <message>npm http GET https://registry.npmjs.org/wordwrap</message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.0764537Z" id="7535c5b5-b670-4971-8b76-904b5c9aaf56" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.0920775Z" id="5d6d5a17-f8e0-4bd6-b1f0-c73421e9f7f6" type="0">
+      <message>&gt; kerberos@0.0.3 install C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos</message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.1077008Z" id="ad647d49-ecc5-451a-a298-f96c8b42c394" type="0">
+      <message>&gt; (node-gyp rebuild 2&gt; builderror.log) || (exit 0)</message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.123326Z" id="a2b31838-9371-41be-93c2-0595d1f1c111" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.154574Z" id="6936f83a-faa5-4624-af62-c6d5f0318ab5" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.1701962Z" id="5f20eeaa-52da-4315-8e36-5d00dbe9be1d" type="0">
+      <message>C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos&gt;node "D:\Program Files (x86)\npm\1.2.18\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild </message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.2639398Z" id="0f9b8f21-8272-4ea2-9177-fd33f7b421fa" type="1">
+      <message>npm http GET https://registry.npmjs.org/amdefine</message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.8732671Z" id="d6ab092b-ec1a-48a4-ae51-6da439facb00" type="1">
+      <message>npm http 200 https://registry.npmjs.org/minimatch</message>
+    </entry>
+    <entry time="2013-09-11T20:03:47.9045298Z" id="9e3f2d4e-6c50-4c58-9773-4c8cc63ae249" type="1">
+      <message>npm http GET https://registry.npmjs.org/minimatch/-/minimatch-0.2.12.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:48.3419819Z" id="ffc49aad-cf33-43a4-8e9c-c9595d41fecd" type="1">
+      <message>npm http 200 https://registry.npmjs.org/wordwrap</message>
+    </entry>
+    <entry time="2013-09-11T20:03:48.3732291Z" id="80ca958c-e70b-402e-9b53-1888995abd54" type="1">
+      <message>npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:48.95131Z" id="0ed5aa60-b345-4831-a854-4a5c09427e39" type="1">
+      <message>npm http 200 https://registry.npmjs.org/amdefine</message>
+    </entry>
+    <entry time="2013-09-11T20:03:48.9669341Z" id="39798bb0-6dca-425e-81cb-93635a6f4c3d" type="1">
+      <message>npm http GET https://registry.npmjs.org/amdefine/-/amdefine-0.0.8.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:49.2013804Z" id="2cbf13a4-8f64-484a-93ac-9386d0be9365" type="1">
+      <message>npm http 200 https://registry.npmjs.org/minimatch/-/minimatch-0.2.12.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:49.6231316Z" id="453acf4a-4c69-4a8d-9a9d-e24704d99414" type="1">
+      <message>npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:49.7793703Z" id="b23e4d6d-0dd4-474e-8569-a17550ed08e4" type="1">
+      <message>npm http GET https://registry.npmjs.org/lru-cache</message>
+    </entry>
+    <entry time="2013-09-11T20:03:49.7949937Z" id="c5b43eae-b958-40fe-9663-73fc52e37f31" type="1">
+      <message>npm http GET https://registry.npmjs.org/sigmund</message>
+    </entry>
+    <entry time="2013-09-11T20:03:50.2480851Z" id="fda7474d-a4a9-46ff-aad6-a18eddaa2d93" type="1">
+      <message>npm http 200 https://registry.npmjs.org/amdefine/-/amdefine-0.0.8.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:51.2948802Z" id="6ba3b158-4bbc-4a50-a04f-424e7e27a523" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sigmund</message>
+    </entry>
+    <entry time="2013-09-11T20:03:51.9355219Z" id="ab43b642-d6cf-4513-961a-754dba678b98" type="1">
+      <message>npm http GET https://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:51.966703Z" id="0553dfa6-3dd2-4436-b7dd-1af5c7102aee" type="1">
+      <message>npm http 200 https://registry.npmjs.org/lru-cache</message>
+    </entry>
+    <entry time="2013-09-11T20:03:51.9823273Z" id="e489057d-6390-46ae-833f-cc6989259284" type="1">
+      <message>npm http GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.3.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.3572994Z" id="98ab8da0-702d-4e5c-98e2-d8ba8ec35c80" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.3729212Z" id="0de7f030-46a5-46ff-984f-9d296735d3d2" type="0">
+      <message>&gt; bson@0.2.2 install C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson</message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.4041683Z" id="abcae815-24c5-4921-87db-36fc5b2c519b" type="0">
+      <message>&gt; (node-gyp rebuild 2&gt; builderror.log) || (exit 0)</message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.4197936Z" id="81292d11-a39c-46a0-b187-fee47b7c5e8b" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.4354175Z" id="d4edca94-684e-448a-8d06-f4d5db1fba4b" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.4510414Z" id="50649120-c4cf-4e8d-9f60-c73a7b6e8af0" type="0">
+      <message>C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson&gt;node "D:\Program Files (x86)\npm\1.2.18\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild </message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.6072887Z" id="63ffb945-c483-48b5-bbd1-a0b755e015a0" type="1">
+      <message>npm http 200 https://registry.npmjs.org/sigmund/-/sigmund-1.0.0.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:03:52.9978737Z" id="d27cee93-ec57-43f7-ba93-335e3c083247" type="1">
+      <message>npm http 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.3.1.tgz</message>
+    </entry>
+    <entry time="2013-09-11T20:04:02.5127682Z" id="04477ec2-be9a-4a55-939e-396963843a13" type="0">
+      <message>Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.</message>
+    </entry>
+    <entry time="2013-09-11T20:04:02.6533835Z" id="d33c8463-44f7-46f2-b907-d50d39c9e443" type="0">
+      <message>MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\kerberos\build\binding.sln]</message>
+    </entry>
+    <entry time="2013-09-11T20:04:07.6373755Z" id="1a8606a9-dec6-4649-b7b3-f2d270eca2f9" type="0">
+      <message>Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.</message>
+    </entry>
+    <entry time="2013-09-11T20:04:07.7779979Z" id="05af68e1-7eac-462f-8d13-abb0762ec818" type="0">
+      <message>MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [C:\DWASFiles\Sites\gbmongo\VirtualDirectory0\site\wwwroot\node_modules\mongoose\node_modules\mongodb\node_modules\bson\build\binding.sln]</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.5123073Z" id="f0d5c88d-b7f8-494b-ac71-5732b32a415d" type="0">
+      <message>express@3.3.4 node_modules\express</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.5435543Z" id="78a923ad-5822-4d73-9ff5-8d6709d942e4" type="0">
+      <message>├── methods@0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.5591794Z" id="366a968f-f7fe-4136-9757-2b3f53babf39" type="0">
+      <message>├── fresh@0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.5748049Z" id="33148f66-ee19-44da-8a2e-6accccb42af3" type="0">
+      <message>├── range-parser@0.0.4</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.5904273Z" id="a4289a85-a496-4955-94db-5bc3016ccbf1" type="0">
+      <message>├── cookie-signature@1.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.6060502Z" id="1996b280-84d1-4f83-99b6-0146c85a481b" type="0">
+      <message>├── buffer-crc32@0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.6216728Z" id="fc4a1a0b-b215-4d90-8a18-3e98dae94fb3" type="0">
+      <message>├── cookie@0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.6529211Z" id="3b846f4c-428a-449a-b423-c04803a66fcf" type="0">
+      <message>├── debug@0.7.2</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.6685441Z" id="f2d9a127-d314-4d9a-948f-c1898e323427" type="0">
+      <message>├── mkdirp@0.3.5</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.6997926Z" id="7e2b2f35-9686-4c3d-8d41-dc71b9a3b7ac" type="0">
+      <message>├── commander@1.2.0 (keypress@0.1.0)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7154196Z" id="744f58ce-15e3-49ec-a351-f85cc0442bf5" type="0">
+      <message>├── send@0.1.3 (mime@1.2.11)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7310499Z" id="87093c37-6834-42cd-b929-8a53c210fe39" type="0">
+      <message>└── connect@2.8.4 (uid2@0.0.2, pause@0.0.1, qs@0.6.5, bytes@0.2.0, formidable@1.0.14)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7466645Z" id="dea1bc1d-0966-42ce-8e75-9f9219fbc9f8" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7622877Z" id="cef61eab-6b3e-4b76-8cbf-44c2d39be33a" type="0">
+      <message>jade@0.35.0 node_modules\jade</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7779102Z" id="457c3a95-4f02-4bff-99d1-63bde72a0e1b" type="0">
+      <message>├── character-parser@1.2.0</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.7935333Z" id="d3371c37-2c0d-4641-ab3d-0eca7cfa24c8" type="0">
+      <message>├── commander@2.0.0</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.8091586Z" id="476895f0-f14a-4663-8af7-e8d72a6706c3" type="0">
+      <message>├── mkdirp@0.3.5</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.8247825Z" id="e82057b6-1a7f-440f-8202-c3fb430d6748" type="0">
+      <message>├── with@1.1.1 (uglify-js@2.4.0)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.8404301Z" id="e73e1f40-3011-4af3-8f5a-349cf0036393" type="0">
+      <message>├── constantinople@1.0.2 (uglify-js@2.4.0)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.8716746Z" id="e4e40eef-ff14-4961-9809-2d73eace32d8" type="0">
+      <message>├── transformers@2.1.0 (promise@2.0.0, css@1.0.8, uglify-js@2.2.5)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.8872786Z" id="4983f08a-1940-40aa-9613-433bb00694d6" type="0">
+      <message>└── monocle@1.1.50 (readdirp@0.2.5)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.9029019Z" id="243b4b52-7c2a-4160-a4cf-aa12c1f92001" type="0">
+      <message></message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.918529Z" id="3fe731fa-5830-4108-9acf-2e00a1aeb395" type="0">
+      <message>mongoose@3.6.19 node_modules\mongoose</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.949777Z" id="d6564eca-d5d5-4495-9472-2a53f60ce2a3" type="0">
+      <message>├── regexp-clone@0.0.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.9654587Z" id="6100ded0-8d04-4ea7-b046-fa48fe2b302c" type="0">
+      <message>├── muri@0.3.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:08.9810225Z" id="97811321-e205-495b-ab84-a846ad37eb78" type="0">
+      <message>├── hooks@0.2.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.0122699Z" id="6453baf9-1b6c-480e-a62b-51790e48f1b4" type="0">
+      <message>├── sliced@0.0.5</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.0435298Z" id="1d8fc5ba-1310-4324-ad40-18b3541972a3" type="0">
+      <message>├── mpath@0.1.1</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.074765Z" id="8fe215fc-f764-400a-8cd6-31c51cd1dd36" type="0">
+      <message>├── ms@0.1.0</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.121639Z" id="42a8d082-9573-4642-83fe-79fdb5c729c7" type="0">
+      <message>├── mpromise@0.2.1 (sliced@0.0.4)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.152886Z" id="2a9ae67e-40ea-4606-b3e5-02e84cd70257" type="0">
+      <message>└── mongodb@1.3.19 (kerberos@0.0.3, bson@0.2.2)</message>
+    </entry>
+    <entry time="2013-09-11T20:04:09.9184496Z" id="0b49c9f9-d5e8-4762-9dca-572f13cb61a7" type="0">
+      <message>Finished successfully.</message>
+    </entry>
+  </entry>
+  <entry time="2013-09-11T20:04:09.9809451Z" id="5e14604a-d671-4f72-bbbe-2523f0b26035" type="0">
+    <message>Deployment successful.</message>
+  </entry>
+</entries>
